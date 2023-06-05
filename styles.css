@@ -137,3 +137,83 @@
   .share-button:focus {
     outline: none;
   }
+
+  /* Default styles for all screen sizes */
+
+/* Styles for screens up to 576px (typical for mobiles in portrait mode) */
+@media (max-width: 576px) {
+    /* Adjustments for smaller screens */
+    body {
+      font-size: 16px;
+    }
+    
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .header {
+      text-align: center;
+    }
+    
+    .menu {
+      display: none;
+    }
+    
+    .content {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Styles for screens between 577px and 768px (typical for mobiles in landscape mode and tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Adjustments for medium-sized screens */
+    body {
+      font-size: 18px;
+    }
+    
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+    
+    .header {
+      text-align: center;
+    }
+    
+    .menu {
+      display: block;
+      text-align: center;
+    }
+    
+    .content {
+      margin-top: 30px;
+    }
+  }
+  
+  /* Styles for screens above 768px (typical for desktops and larger screens) */
+  @media (min-width: 769px) {
+    /* Adjustments for larger screens */
+    body {
+      font-size: 20px;
+    }
+    
+    .container {
+      width: 80%;
+      padding: 30px;
+    }
+    
+    .header {
+      text-align: left;
+    }
+    
+    .menu {
+      display: block;
+      text-align: right;
+    }
+    
+    .content {
+      margin-top: 40px;
+    }
+  }
+  
