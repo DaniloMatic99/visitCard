@@ -3,7 +3,7 @@ function shareContent() {
       navigator.share({
         title: 'Visit card',
         text: 'Check out my website!',
-        url: 'https://www.example.com'
+        url: 'https://danilomatic99.github.io/visitCard/'
       })
         .then(() => console.log('Shared successfully'))
         .catch((error) => console.log('Error sharing:', error));
